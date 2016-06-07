@@ -3,18 +3,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-   int []array=new int[5];
-        Scanner scanner = new Scanner(System.in);
-       for(int i=0;i<array.length;i++){
-           array[i]=scanner.nextInt();
-
-       }
-        for(int i=0;i<array.length;i++){
-            if (array[i]==42){
-                break;
-            }
-            System.out.println(array[i]);
+        Scanner sc = new Scanner(System.in);
+        int numb;int array[];int k=0; String s="";
+        numb=sc.nextInt();
+        while(numb!=42){
+            s+=numb+"\n";
+            numb=sc.nextInt();
 
         }
-}
-}
+        System.out.println(s);
+    }}

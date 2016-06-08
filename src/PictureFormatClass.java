@@ -14,13 +14,13 @@ public class PictureFormatClass {
             height[i]=sc.nextInt();
         }
         for(int i=0;i<n;i++){
-            if (width[i]>l&&height[i]>l){
+            if (width[i]>l||height[i]>l){
                 System.out.println("CROP IT");
             }
             else if(width[i]==l&&height[i]==width[i]){
                 System.out.println("ACCEPTED");
             }
-            else{
+            else {
                 System.out.println("UPLOAD ANOTHER");
             }
         }

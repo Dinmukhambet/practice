@@ -1,3 +1,5 @@
+package SecondStage;
+
 import java.util.Scanner;
 
 /**
